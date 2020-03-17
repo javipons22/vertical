@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: $color-icono-menu;
+    margin-top:80px;
     
 }
 button {
@@ -14,17 +15,23 @@ button {
 	outline: inherit;
 }
 
+button:focus {
+	
+	outline: none;
+}
+
 // HEADER
 
 .main-header {
     position:fixed;
+    z-index:100;
     top:0;
     background:white;
     border-bottom: 1px solid #bbb;
     &__logo {
         height:60px;
         // de aca se cambia el tamaño de header en version mobile
-        margin: 0.65em 0;
+        margin: 10px 0;
     }
 }
 
@@ -51,3 +58,17 @@ button {
     }
 }
 
+// CONTENIDO PRINCIPAL
+
+.contenido {
+    background:white;
+}
+
+.logo-marca {
+    width:100%;
+}
+
+.marcas {
+    // usamos row-cols de esta forma porque como clase no funciona en responsive
+    @include row-cols(2);
+}
