@@ -9985,14 +9985,39 @@ button:focus {
 }
 
 .marcas > * {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.img-carousel {
+  object-fit: contain;
+}
+
+.carousel-inner {
+  height: 279px;
+}
+
+.footer {
+  background: #333;
+  color: #ccc;
+  display: block;
+}
+.footer__logo {
+  width: 45%;
+}
+.footer__quienes-somos {
+  font-size: 12px;
+}
+
+.links-footer__element {
+  font-size: 10px;
+  border-bottom: 1px #ccc dashed;
 }
 
 @media (min-width: 576px) {
   .marcas > * {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
 @media (min-width: 768px) {
@@ -10016,7 +10041,7 @@ button:focus {
     border: none;
   }
   .main-header__logo {
-    height: 65px;
+    height: 70px;
     margin: 0;
   }
 
@@ -10091,6 +10116,44 @@ button:focus {
   .marcas > * {
     flex: 0 0 12.5%;
     max-width: 12.5%;
+  }
+
+  .carousel-inner {
+    height: 350px;
+  }
+
+  .footer {
+    background: none;
+    height: 310px;
+    margin: 0 auto;
+    padding: 0;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.5));
+  }
+  .footer__logo {
+    transform: translateY(-10%);
+    width: 50%;
+  }
+
+  .clippeado2 {
+    width: 101%;
+    height: 100%;
+    background: #333;
+    color: #ccc;
+    -webkit-clip-path: polygon(0 13%, 75% 13%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 13%, 75% 13%, 100% 0, 100% 100%, 0 100%);
+    transform: translateY(-4%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .footer__contenido {
+    transform: translateY(30%);
+    height: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-inner {
+    height: 550px;
   }
 }
 .menu-wrapper {

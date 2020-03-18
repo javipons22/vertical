@@ -70,5 +70,34 @@ button:focus {
 
 .marcas {
     // usamos row-cols de esta forma porque como clase no funciona en responsive
-    @include row-cols(2);
+    @include row-cols(3);
+}
+
+.img-carousel {
+    object-fit: contain;
+}
+
+.carousel-inner {
+    height:279px;
+}
+
+// FOOTER
+.footer {
+    background:#333;
+    color:#ccc;
+    display:block;
+    //padding: 30px 0 40px 0;
+    &__logo {
+        width:45%;
+    }
+    &__quienes-somos {
+        font-size: 12px;
+    }
+}
+
+.links-footer {
+    &__element {
+        font-size: 10px;
+        border-bottom: 1px #ccc dashed;
+    }
 }
