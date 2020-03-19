@@ -101,3 +101,35 @@ button:focus {
         border-bottom: 1px #ccc dashed;
     }
 }
+
+.contacto-footer {
+    font-size:11px;
+    display:block;
+}
+
+.fb-page {
+    width:90%;
+}
+
+#sucursal {
+    background:white;
+    display:block;
+    font-size:0.8em;
+    width:100%;
+    padding: 7px 5px;
+    font-weight:400;
+    outline:none;
+    border:none;
+    color:#333;
+    &:focus {
+        outline:none;
+    }
+}
+
+.contacto {
+    overflow:hidden;
+}
+
+.sucursal-label {
+    font-size:0.85em;
+}
