@@ -7,6 +7,10 @@ jQuery(document).ready(function($){
         //$('nav').animate({width:'toggle'},350);
     });
 
+    $('#sucursal').on('change', function() {
+        console.log( this.value );
+    });
+
     // Todas las funciones se ejecutan al cambiar el tamaño de la pantalla
     $(window).resize(function() {
         if ($(window).width() >= 576) {
@@ -39,4 +43,12 @@ jQuery(document).ready(function($){
         $('body').css('margin-top',(height1 + height2) + 'px');
 
     }).resize();
+
+    // Sucursales footer
+    $('#sucursal').on('change', function() {
+        var sucursal = this.value;
+        for (var i = 0; i < 3 ; i++) {
+            $(`.contacto-footer-${i}`).html(sucursales[sucursal][i]);
+        }
+    });
 });
