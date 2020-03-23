@@ -10003,7 +10003,7 @@ button:focus {
   display: block;
 }
 .footer__logo {
-  width: 45%;
+  width: 38%;
 }
 .footer__quienes-somos {
   font-size: 12px;
@@ -10068,7 +10068,7 @@ button:focus {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: url(../../img/fondo.jpg) rgba(0, 0, 0, 0.35);
+    background: url(../../img/fondo.jpg) rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
