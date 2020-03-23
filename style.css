@@ -9994,7 +9994,7 @@ button:focus {
 }
 
 .carousel-inner {
-  height: 279px;
+  height: 400px;
 }
 
 .footer {
@@ -10060,12 +10060,22 @@ button:focus {
 }
 @media (min-width: 992px) {
   body {
-    min-height: 100%;
-    background: url(../../img/fondo.jpg) rgba(0, 0, 0, 0.3);
+    max-height: 100%;
+    margin: 3em 0;
+  }
+
+  .background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../img/fondo.jpg) rgba(0, 0, 0, 0.35);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    margin: 3em 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .main-header {
