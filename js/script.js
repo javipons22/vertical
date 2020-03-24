@@ -44,11 +44,30 @@ jQuery(document).ready(function($){
 
     }).resize();
 
-    // Sucursales footer
+    // Cambio de Sucursales footer
     $('#sucursal').on('change', function() {
         var sucursal = this.value;
         for (var i = 0; i < 3 ; i++) {
             $(`.contacto-footer-${i}`).html(sucursales[sucursal][i]);
         }
     });
+    // Fin Cambio de Sucursales footer
+
+    // INICIO MARCADOR DE PAGINAS EN NAV (INICIO) ------------------
+    
+    // Marcador de pagina actual en header para el nav
+    var pathname = window.location.pathname;
+    // dividimos el path en un array para acceder al ultimo elemento
+    var splitPath = pathname.split("/");
+    // Obtenemos el index del ultimo elemento
+    var lastIndex = splitPath.length - 1;
+
+    // (ELSE) si el elemento esta vacio es HOME , por eso agregamos la clase selected a .home en el else
+    if (splitPath[lastIndex].length > 0) {
+        $("." + splitPath[lastIndex]).addClass('main-nav__link--selected');
+    } else {
+        $(".home").addClass('main-nav__link--selected');
+    }
+    // FIN MARCADOR DE PAGINAS EN NAV (FIN) ------------------
+    
 });
