@@ -70,7 +70,7 @@ button:focus {
 
 .marcas {
     // usamos row-cols de esta forma porque como clase no funciona en responsive
-    @include row-cols(3);
+    @include row-cols(4);
 }
 
 .img-carousel {
@@ -133,3 +133,37 @@ button:focus {
 .sucursal-label {
     font-size:0.85em;
 }
+
+// Tarifario
+
+#tarifario {
+    text-align:center;
+    width: 1110px;
+}
+
+.fila {
+    margin-bottom:15px;
+    overflow: scroll;
+}
+
+.titulo-tarifario {
+    color:$verde-vertical;
+    display:inline-block;
+    margin:0 auto;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+
+.table td {
+    padding:0.75em 0;
+    font-size:10px;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #eee;
+}
+
+.color1 { background:#FFFFD7;} /* color:amarillo */
+.color2 { background:#D5FFD5;} /* color:verde */
+.color3 { background:#FDE7E7;} /* color:rosa */
+.color4 { background:#F9CD77;} /* color:rojo */

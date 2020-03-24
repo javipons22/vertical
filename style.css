@@ -9985,8 +9985,8 @@ button:focus {
 }
 
 .marcas > * {
-  flex: 0 0 33.3333333333%;
-  max-width: 33.3333333333%;
+  flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .img-carousel {
@@ -10046,6 +10046,53 @@ button:focus {
   font-size: 0.85em;
 }
 
+#tarifario {
+  text-align: center;
+  width: 1110px;
+}
+
+.fila {
+  margin-bottom: 15px;
+  overflow: scroll;
+}
+
+.titulo-tarifario {
+  color: #00c813;
+  display: inline-block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.table td {
+  padding: 0.75em 0;
+  font-size: 10px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #eee;
+}
+
+.color1 {
+  background: #FFFFD7;
+}
+
+/* color:amarillo */
+.color2 {
+  background: #D5FFD5;
+}
+
+/* color:verde */
+.color3 {
+  background: #FDE7E7;
+}
+
+/* color:rosa */
+.color4 {
+  background: #F9CD77;
+}
+
+/* color:rojo */
 @media (min-width: 576px) {
   .marcas > * {
     flex: 0 0 25%;
@@ -10195,6 +10242,10 @@ button:focus {
 @media (min-width: 1200px) {
   .carousel-inner {
     height: 550px;
+  }
+
+  .fila {
+    overflow: hidden;
   }
 }
 .menu-wrapper {
