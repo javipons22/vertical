@@ -1,3 +1,14 @@
+    <div class="row marcas align-items-center justify-content-center">
+            <div class="col py-2"><img src="img/marcas vertical/arbor.png" alt="arbor" class="logo-1 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/quicksilver.png" alt="quicksilver" class="logo-2 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/faction.png" alt="faction" class="logo-3 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/vonzipper.png" alt="vonzipper" class="logo-4 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/roxy.png" alt="roxy" class="logo-5 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/head.png" alt="head" class="logo-6 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/burton.png" alt="burton" class="logo-7 logo-marca"></div>
+            <div class="col py-2"><img src="img/marcas vertical/oakley.png" alt="oakley" class="logo-8 logo-marca"></div>
+    </div>
+</main>
 <footer class="footer container-lg">
         <div class="clippeado2 container-lg">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 footer__contenido px-lg-3">
@@ -23,8 +34,8 @@
                 <div class="contacto col py-4 py-lg-0">
                     <h5 class="mt-lg-2 mb-4">Contacto</h5>
                     <form id="contacto" class="mb-3">
-                        <label for="sucursal" class="sucursal-label">Seleccione sucursal</label>
-                        <select id="sucursal" name="sucursal">
+                        <label for="sucursal-footer-select" class="sucursal-label">Seleccione sucursal</label>
+                        <select id="sucursal-footer-select" name="sucursal">
                             <option value="cordoba" selected>Córdoba</option>
                             <option value="bsas">Buenos Aires</option>
                             <option value="rosario">Rosario</option>

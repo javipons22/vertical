@@ -2,7 +2,7 @@
     <main class="container contenido">
         <div class="container">
             <div class="row">
-                <h5 class="titulo-tarifario my-5 ">TARIFAS 2020</h5>
+                <h5 class="titulo-tarifario my-5 ">- <span>TARIFAS</span> RENTAL 2020 -</h5>
                 <div class="fila">
                     <table id="tarifario" class="table table-hover">
                         <tbody>
@@ -222,15 +222,5 @@
             </div>    
 
         </div>
-        <div class="row marcas align-items-center pb-3">
-            <div class="col py-2"><img src="img/marcas vertical/arbor.png" alt="arbor" class="logo-1 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/quicksilver.png" alt="quicksilver" class="logo-2 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/faction.png" alt="faction" class="logo-3 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/vonzipper.png" alt="vonzipper" class="logo-4 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/roxy.png" alt="roxy" class="logo-5 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/head.png" alt="head" class="logo-6 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/burton.png" alt="burton" class="logo-7 logo-marca"></div>
-            <div class="col py-2"><img src="img/marcas vertical/oakley.png" alt="oakley" class="logo-8 logo-marca"></div>
-        </div>
-    </main>
+<!-- main cierra en footer -->
 <?php include 'footer.php'; ?>

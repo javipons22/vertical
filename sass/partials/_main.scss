@@ -46,6 +46,10 @@ button:focus {
         border-bottom: 1px solid $verde-vertical;
         line-height:100%;
     }
+    &__link:active,&__link:hover {
+        text-decoration:none;
+        color: $verde-vertical;
+    }
 }
 
 .social-nav {
@@ -62,6 +66,7 @@ button:focus {
 
 .contenido {
     background:white;
+    padding-bottom: 20px;
 }
 
 .logo-marca {
@@ -98,7 +103,7 @@ button:focus {
 .links-footer {
     &__element {
         font-size: 10px;
-        border-bottom: 1px #ccc dashed;
+        border-bottom: 1px #777 dashed;
     }
 }
 
@@ -111,7 +116,7 @@ button:focus {
     width:90%;
 }
 
-#sucursal {
+#sucursal-footer-select {
     background:white;
     display:block;
     font-size:0.8em;
@@ -147,11 +152,14 @@ button:focus {
 }
 
 .titulo-tarifario {
-    color:$verde-vertical;
+    color:$color-icono-menu;
     display:inline-block;
     margin:0 auto;
     font-weight:bold;
     font-size: 25px;
+    >span {
+        font-weight:400;
+    }
 }
 
 .texto-rental {
@@ -171,3 +179,81 @@ button:focus {
 .color2 { background:#D5FFD5;} /* color:verde */
 .color3 { background:#FDE7E7;} /* color:rosa */
 .color4 { background:#F9CD77;} /* color:rojo */
+
+//sucursales 
+.titulo-sucursales {
+    color:$color-icono-menu;
+    display:inline-block;
+    width:100%;
+    margin:48px auto 24px auto;
+    font-weight:bold;
+    font-size: 25px;
+    text-align:center;
+    >span {
+        font-weight:400;
+    }
+}
+.sucursal {
+    font-family:sans-serif;
+    // para que no se rompa la escala de los elementos agregamos min-height;
+    min-height:211px;
+    border: 1px solid #ccc;
+    //-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.17);
+    //-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.17);
+    //box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.17);
+    &__imagen {
+        max-width:100%;
+        max-height:100%;
+        object-fit: cover;
+    }
+    &__contenedor-imagen {
+        overflow: hidden;
+        flex-basis: 33%;
+    }
+    &__titulo {
+        font-family:Montserrat;
+        color:$verde-vertical;
+        font-weight: bold;
+    }
+    &__info {
+        color:#777;
+        font-size: 0.75em;
+        margin-bottom: 1px;
+    }
+    &__links {
+        a {
+            font-size: 0.8em;
+            vertical-align: middle;
+            border-radius: 0.8em;
+        }
+        a:active, a:focus, a:hover {
+            color:black;
+            text-decoration:none;
+        }
+        i {
+            font-size: 2em;
+            margin-right: 0.15em;
+        }
+    }
+    &__link-whatsapp {
+    }
+    &__link-mail {
+        i {
+            font-size:1.8em;
+        }
+    }
+    &__link-mapa {
+        i {
+            font-size:1.8em;
+        }
+        
+    }
+
+    &__link-whatsapp, &__link-mail, &__link-mapa {
+        border:1px solid #888;
+        max-width:92px;
+        color: #888;
+        flex-basis:31%;
+        overflow: hidden;
+    }
+}

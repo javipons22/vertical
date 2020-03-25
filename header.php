@@ -33,8 +33,8 @@
                     </ul>
                 </nav>  
                 <ul class="social-nav col-lg-2 d-lg-flex align-items-center list-unstyled  mb-3 mb-lg-0 justify-content-center">
-                    <li class="social-nav__element d-inline-block mr-3 mr-lg-4"><a class="social-nav__link" href="#face"><i class="social-nav__icon fab fa-facebook-square"></i></a></li>
-                    <li class="social-nav__element d-inline-block"><a class="social-nav__link" href="#insta"><i class="social-nav__icon fab fa-instagram-square"></i></a></li>
+                    <li class="social-nav__element d-inline-block mr-3 mr-lg-4"><a class="social-nav__link" href="https://www.facebook.com/VerticalSkiSnowboard/"><i class="social-nav__icon fab fa-facebook-square"></i></a></li>
+                    <li class="social-nav__element d-inline-block"><a class="social-nav__link" href="https://www.instagram.com/verticalskisnowboard/"><i class="social-nav__icon fab fa-instagram-square"></i></a></li>
                 </ul>
             </div>
         </header>

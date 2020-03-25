@@ -102,6 +102,10 @@
 
     .marcas {
         @include row-cols(8);
+        >div {
+            // valor extremadamente grande para hacer override de propiedad en _tablet.scss
+            max-width:500px;
+        }
     }
 
     .carousel-inner {
@@ -134,6 +138,13 @@
     .footer__contenido {
         transform: translateY(30%);
         height:70%;
+    }
+
+    .sucursal {
+        &__contenedor-imagen {
+            overflow: hidden;
+            flex-basis: 38%;
+        }
     }
     
 }

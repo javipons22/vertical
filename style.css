@@ -9967,6 +9967,10 @@ button:focus {
   border-bottom: 1px solid #00c813;
   line-height: 100%;
 }
+.main-nav__link:active, .main-nav__link:hover {
+  text-decoration: none;
+  color: #00c813;
+}
 
 .social-nav__element {
   max-width: 50px;
@@ -9978,6 +9982,7 @@ button:focus {
 
 .contenido {
   background: white;
+  padding-bottom: 20px;
 }
 
 .logo-marca {
@@ -10011,7 +10016,7 @@ button:focus {
 
 .links-footer__element {
   font-size: 10px;
-  border-bottom: 1px #ccc dashed;
+  border-bottom: 1px #777 dashed;
 }
 
 .contacto-footer {
@@ -10023,7 +10028,7 @@ button:focus {
   width: 90%;
 }
 
-#sucursal {
+#sucursal-footer-select {
   background: white;
   display: block;
   font-size: 0.8em;
@@ -10034,7 +10039,7 @@ button:focus {
   border: none;
   color: #333;
 }
-#sucursal:focus {
+#sucursal-footer-select:focus {
   outline: none;
 }
 
@@ -10057,11 +10062,14 @@ button:focus {
 }
 
 .titulo-tarifario {
-  color: #00c813;
+  color: #444;
   display: inline-block;
   margin: 0 auto;
   font-weight: bold;
   font-size: 25px;
+}
+.titulo-tarifario > span {
+  font-weight: 400;
 }
 
 .texto-rental {
@@ -10099,6 +10107,70 @@ button:focus {
 }
 
 /* color:rojo */
+.titulo-sucursales {
+  color: #444;
+  display: inline-block;
+  width: 100%;
+  margin: 48px auto 24px auto;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.titulo-sucursales > span {
+  font-weight: 400;
+}
+
+.sucursal {
+  font-family: sans-serif;
+  min-height: 211px;
+  border: 1px solid #ccc;
+}
+.sucursal__imagen {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sucursal__contenedor-imagen {
+  overflow: hidden;
+  flex-basis: 33%;
+}
+.sucursal__titulo {
+  font-family: Montserrat;
+  color: #00c813;
+  font-weight: bold;
+}
+.sucursal__info {
+  color: #777;
+  font-size: 0.75em;
+  margin-bottom: 1px;
+}
+.sucursal__links a {
+  font-size: 0.8em;
+  vertical-align: middle;
+  border-radius: 0.8em;
+}
+.sucursal__links a:active, .sucursal__links a:focus, .sucursal__links a:hover {
+  color: black;
+  text-decoration: none;
+}
+.sucursal__links i {
+  font-size: 2em;
+  margin-right: 0.15em;
+}
+.sucursal__link-mail i {
+  font-size: 1.8em;
+}
+.sucursal__link-mapa i {
+  font-size: 1.8em;
+}
+.sucursal__link-whatsapp, .sucursal__link-mail, .sucursal__link-mapa {
+  border: 1px solid #888;
+  max-width: 92px;
+  color: #888;
+  flex-basis: 31%;
+  overflow: hidden;
+}
+
 @media (min-width: 576px) {
   .marcas > * {
     flex: 0 0 25%;
@@ -10109,6 +10181,9 @@ button:focus {
   .marcas > * {
     flex: 0 0 25%;
     max-width: 25%;
+  }
+  .marcas > div {
+    max-width: 150px;
   }
 }
 @media (min-width: 992px) {
@@ -10212,6 +10287,9 @@ button:focus {
     flex: 0 0 12.5%;
     max-width: 12.5%;
   }
+  .marcas > div {
+    max-width: 500px;
+  }
 
   .carousel-inner {
     height: 350px;
@@ -10243,6 +10321,11 @@ button:focus {
   .footer__contenido {
     transform: translateY(30%);
     height: 70%;
+  }
+
+  .sucursal__contenedor-imagen {
+    overflow: hidden;
+    flex-basis: 38%;
   }
 }
 @media (min-width: 1200px) {
