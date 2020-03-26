@@ -105,6 +105,16 @@ button:focus {
         font-size: 10px;
         border-bottom: 1px #777 dashed;
     }
+    &__link {
+        color: #ccc;
+        text-decoration:none;
+        width:100%;
+        display:block;
+        &:hover {
+            color:$verde-vertical;
+            text-decoration:none;
+        }
+    }
 }
 
 .contacto-footer {
@@ -253,5 +263,39 @@ button:focus {
         color: #888;
         flex-basis:31%;
         overflow: hidden;
+    }
+}
+
+// Pagina Consultas
+.titulo-consultas {
+    color:$color-icono-menu;
+    display:inline-block;
+    margin:0 auto;
+    font-weight:bold;
+    font-size: 25px;
+    >span {
+        font-weight:400;
+    }
+}
+.consulta {
+    &__contenedor-imagen {
+        width:100%;
+    }
+    &__imagen {
+        max-width:100%;
+        object-fit: cover;
+    }
+    &__formulario {
+        font-family: Montserrat;
+        input,textarea,select {
+            border: 2px solid $verde-vertical;
+            font-size:0.9em;
+            color: #777;
+        }
+    }
+    &__btn-submit {
+        background: $verde-vertical;
+        outline:none;
+        border:none;
     }
 }

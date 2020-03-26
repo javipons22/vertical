@@ -10018,6 +10018,16 @@ button:focus {
   font-size: 10px;
   border-bottom: 1px #777 dashed;
 }
+.links-footer__link {
+  color: #ccc;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+.links-footer__link:hover {
+  color: #00c813;
+  text-decoration: none;
+}
 
 .contacto-footer {
   font-size: 11px;
@@ -10169,6 +10179,38 @@ button:focus {
   color: #888;
   flex-basis: 31%;
   overflow: hidden;
+}
+
+.titulo-consultas {
+  color: #444;
+  display: inline-block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 25px;
+}
+.titulo-consultas > span {
+  font-weight: 400;
+}
+
+.consulta__contenedor-imagen {
+  width: 100%;
+}
+.consulta__imagen {
+  max-width: 100%;
+  object-fit: cover;
+}
+.consulta__formulario {
+  font-family: Montserrat;
+}
+.consulta__formulario input, .consulta__formulario textarea, .consulta__formulario select {
+  border: 2px solid #00c813;
+  font-size: 0.9em;
+  color: #777;
+}
+.consulta__btn-submit {
+  background: #00c813;
+  outline: none;
+  border: none;
 }
 
 @media (min-width: 576px) {

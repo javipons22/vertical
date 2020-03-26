@@ -11,7 +11,7 @@
 </main>
 <footer class="footer container-lg">
         <div class="clippeado2 container-lg">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 footer__contenido px-lg-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 footer__contenido px-5 px-lg-3">
                 <div class="col py-4 pt-4 py-lg-0">
                     <img src="img/logofooter.png" alt="logo vertical" class="footer__logo">
                     <p class="footer__quienes-somos mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio esse molestiae ipsum deleniti quia voluptatibus vitae quasi alias veniam! Laborum.</p>
@@ -20,10 +20,10 @@
                 <div class="col py-4 py-lg-0">
                     <h5 class="mt-lg-2">Vertical Online</h5>
                     <ul class="links-footer mt-4 list-unstyled">
-                        <li class="links-footer__element py-2">HOME</li>
-                        <li class="links-footer__element py-2">TARIFAS RENTAL</li>
-                        <li class="links-footer__element py-2">SUCURSALES</li>
-                        <li class="links-footer__element py-2">CONSULTAS</li>
+                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">HOME</a></li>
+                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">TARIFAS RENTAL</a></li>
+                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">SUCURSALES</a></li>
+                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">CONSULTAS</a></li>
                     </ul>
                 </div>
                 <div class="col py-4 py-lg-0 d-none d-lg-block">
