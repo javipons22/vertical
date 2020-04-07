@@ -14,7 +14,7 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 footer__contenido px-5 px-lg-3">
                 <div class="col py-4 pt-4 py-lg-0">
                     <img src="img/logofooter.png" alt="logo vertical" class="footer__logo">
-                    <p class="footer__quienes-somos mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio esse molestiae ipsum deleniti quia voluptatibus vitae quasi alias veniam! Laborum.</p>
+                    <p class="footer__quienes-somos mt-4">Somos una  empresa líder dedicada de forma <strong>exclusiva</strong> a la venta y alquiler de equipos, accesorios e indumentaria para la nieve. Nuestra experiencia en el área está robustecida por 16 años de experiencia y <strong>11 sucursales</strong> desplegadas a nivel nacional.</p>
                     
                 </div>
                 <div class="col py-4 py-lg-0">

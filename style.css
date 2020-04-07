@@ -10203,8 +10203,8 @@ button:focus {
   font-family: Montserrat;
 }
 .consulta__formulario input, .consulta__formulario textarea, .consulta__formulario select {
-  border: 2px solid #00c813;
-  font-size: 0.9em;
+  border: 0.75px solid #00c813;
+  font-size: 0.85em;
   color: #777;
 }
 .consulta__btn-submit {

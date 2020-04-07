@@ -288,8 +288,8 @@ button:focus {
     &__formulario {
         font-family: Montserrat;
         input,textarea,select {
-            border: 2px solid $verde-vertical;
-            font-size:0.9em;
+            border: 0.75px solid $verde-vertical;
+            font-size:0.85em;
             color: #777;
         }
     }

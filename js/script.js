@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
             // INICIO FUNCION CAMBIAR IMAGENES BANNER EN MOBIL CON RESPECTO A LAPTOP
             // Borramos todos los slides del container
             $(".carousel-container-js").empty();
-            for(var i = 1; i <= 3; i++){
+            for(var i = 1; i <= 4; i++){
                 // si es la primera foto , en div class agregar active
                 if(i == 1) {
                     $(".carousel-container-js" ).append( `<div class="carousel-item active"><img src="img/banner${i}.jpg" class="d-block w-100 img-carousel" alt="imagen banner ${i}"></div>` );
@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
             }
         } else {
             $(".carousel-container-js").empty();
-            for(var i = 1; i <= 3; i++){
+            for(var i = 1; i <= 4; i++){
                 // si es la primera foto , en div class agregar active
                 if(i == 1) {
                     $(".carousel-container-js" ).append( `<div class="carousel-item active"><img src="img/banner-mobile${i}.jpg" class="d-block w-100 img-carousel" alt="imagen banner ${i}"></div>` );
@@ -42,7 +42,7 @@ jQuery(document).ready(function($){
 
     // INICIO CAMBIO DE SUCURSALES FOOTER (INICIO) ------------------
     // Cambio de Sucursales footer
-    $('#sucursal').on('change', function() {
+    $('#sucursal-footer-select').on('change', function() {
         var sucursal = this.value;
         for (var i = 0; i < 3 ; i++) {
             // i + 1 porque tiene que empezar desde el 2do elemento del array sucursales
