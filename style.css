@@ -9951,6 +9951,7 @@ button:focus {
   top: 0;
   background: white;
   border-bottom: 1px solid #bbb;
+  overflow: hidden;
 }
 .main-header__logo {
   height: 60px;
@@ -10211,6 +10212,15 @@ button:focus {
   background: #00c813;
   outline: none;
   border: none;
+}
+
+.easy-rental__imagen {
+  width: 100%;
+}
+.easy-rental__texto {
+  padding: 35px;
+  padding-top: 0;
+  font-size: 0.9em;
 }
 
 @media (min-width: 576px) {

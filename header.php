@@ -32,7 +32,7 @@
     </div>
     <div class="wrap-shadow">
         <header class="main-header container-lg clippeado">
-            <div class="row justify-content-between align-items-stretch">
+            <div class="row justify-content-between align-items-stretch d-lg-flex flex-lg-nowrap">
                 <div class="col d-lg-flex align-items-center">
                     <img class="main-header__logo" src="img/logo.png" alt="logo vertical">
                 </div>
@@ -46,6 +46,7 @@
                 <nav class="main-nav col-12 col-lg-auto d-lg-flex align-items-center mt-3 mb-5 mb-lg-0 mt-lg-0">
                     <ul class="list-unstyled d-lg-flex mb-0 align-items-center">
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link home" href="./">HOME</a></li>
+                        <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link easyrental" href="./easyrental">EASY RENTAL</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link tarifas" href="./tarifas">TARIFAS RENTAL</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link sucursales" href="./sucursales">SUCURSALES</a></li>
                         <li class="main-nav__element d-lg-inline-block px-lg-3"><a class="main-nav__link consultas main-nav__link--last" href="./consultas">CONSULTAS</a></li>

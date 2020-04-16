@@ -20,10 +20,11 @@
                 <div class="col py-4 py-lg-0">
                     <h5 class="mt-lg-2">Vertical Online</h5>
                     <ul class="links-footer mt-4 list-unstyled">
-                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">HOME</a></li>
-                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">TARIFAS RENTAL</a></li>
-                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">SUCURSALES</a></li>
-                        <li class="links-footer__element py-2"><a href="#" class="links-footer__link">CONSULTAS</a></li>
+                        <li class="links-footer__element py-2"><a href="./" class="links-footer__link">HOME</a></li>
+                        <li class="links-footer__element py-2"><a href="./easyrental" class="links-footer__link">EASY RENTAL</a></li>
+                        <li class="links-footer__element py-2"><a href="./tarifas" class="links-footer__link">TARIFAS RENTAL</a></li>
+                        <li class="links-footer__element py-2"><a href="./sucursales" class="links-footer__link">SUCURSALES</a></li>
+                        <li class="links-footer__element py-2"><a href="./consultas" class="links-footer__link">CONSULTAS</a></li>
                     </ul>
                 </div>
                 <div class="col py-4 py-lg-0 d-none d-lg-block">
